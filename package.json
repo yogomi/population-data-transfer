@@ -1,0 +1,33 @@
+{
+  "name": "population-data-transfer",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Makoto Yano",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "check-style": "gulp check-style",
+    "start": "node public/main.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1",
+    "@babel/preset-env": "^7.1",
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-json": "^2.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
