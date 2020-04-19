@@ -11,6 +11,9 @@
   "plugins": [
     ["module-resolver", {
       "root": ["./"],
+      "alias": {
+        "population-data-transfer": "./src"
+      }
     }]
   ]
 }

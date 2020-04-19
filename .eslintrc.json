@@ -6,7 +6,7 @@
       "alias": {
         "map": [
           ["common_libs", "./src/common_libs"],
-          ["koko-server", "./src"]
+          ["population-data-transfer", "./src"]
         ],
         "extensions": [".es", ".js"]
       }
