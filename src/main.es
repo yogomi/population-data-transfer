@@ -1,17 +1,9 @@
-import fetch from 'node-fetch';
-import fs from 'fs';
-import cutOutPopulationData from 'population-data-transfer/cut_out_population_data';
+import { sendGeopopulationFromJson } from 'population-data-transfer/send_geopopulation';
 
 async function main() {
-  const geopopulationFileName = 'geopopulation.json';
-  const geopopulationData = JSON.parse(fs.readFileSync(geopopulationFileName, 'utf8'));
-  console.log(geopopulationData);
-  // geopopulationData.forEach((data) => {
-  //   console.log(data);
-  // });
+  sendGeopopulationFromJson('http://localhost:4001/api/v1/geopopulation', 'geopopulation.json');
 }
 
-cutOutPopulationData('worldcitiespop.json', 'geopopulation.json');
-// main();
+main();
 
 // main().then(() => console.log('finish'), (err) => console.error(err));

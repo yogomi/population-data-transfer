@@ -1,3 +1,5 @@
+import fetch from 'node-fetch';
+
 let urlBase = 'https://public.opendatasoft.com/api/records/1.0/search/';
 urlBase = `${urlBase}?dataset=worldcitiespop&sort=population&facet=country`;
 
