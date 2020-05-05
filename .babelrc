@@ -12,6 +12,8 @@
     ["module-resolver", {
       "root": ["./"],
       "alias": {
+        "common_libs": "./src/common_libs",
+        "flexlog": "./src/common_libs/js_flexlog/console_flexlog",
         "population-data-transfer": "./src"
       }
     }]

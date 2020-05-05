@@ -1,7 +1,9 @@
-import { sendGeopopulationFromJson } from 'population-data-transfer/send_geopopulation';
+// import { sendGeopopulationFromJson } from 'population-data-transfer/send_geopopulation';
+import createGeopopulationData from 'population-data-transfer/create_geopopulation_data';
+
 
 async function main() {
-  sendGeopopulationFromJson('http://localhost:4001/api/v1/geopopulation', 'geopopulation.json');
+  createGeopopulationData('simple_population.json', 'geopopulation.json');
 }
 
 main();

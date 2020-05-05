@@ -25,7 +25,8 @@
     "eslint-plugin-node": "^11.1.0",
     "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0",
-    "gulp-eslint": "^6.0.0"
+    "gulp-eslint": "^6.0.0",
+    "three": "^0.116.1"
   },
   "dependencies": {
     "node-fetch": "^2.6.0"
