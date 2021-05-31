@@ -29,6 +29,6 @@
     "three": "^0.116.1"
   },
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
